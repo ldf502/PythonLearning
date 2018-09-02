@@ -13,6 +13,7 @@ while True:
     if guess == target:
         print("恭喜你，猜对了！")
         print("猜测的次数为{}".format(count))
+        break
     elif guess > target:
         print("你猜的数大了")
     else :
